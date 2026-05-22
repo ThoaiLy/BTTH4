@@ -36,6 +36,7 @@ int main()
     cout << "\nNhập số giây cần cộng: ";
     cin >> giay;
 
+    //a sử dụng kết quả a sau --a và k thay đổi a
     cout << "a + " << giay << " giây = "
          << a + giay << '\n';
 

@@ -33,6 +33,7 @@ int main()
 
     int ngay;
 
+    //a sử dụng kết quả a sau --a và k thay đổi a
     cout << "\nNhập số ngày cần cộng/trừ: ";
     cin >> ngay;
 

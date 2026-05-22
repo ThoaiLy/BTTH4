@@ -30,7 +30,7 @@ int main()
     cout << A * B;
 
     int k;
-    cout << "Nhập k: "; cin >> k;
+    cout << "\nNhập k: "; cin >> k;
     cout << k << " * A:\n" << k * A << '\n'; 
     cout <<"B * " << k << ":\n" << B * k << '\n'; 
 

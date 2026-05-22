@@ -103,7 +103,7 @@ cTime cTime::operator + (int giay)
     tmp.iGio = TongGiay / 3600;
     TongGiay %= 3600;
     tmp.iPhut = TongGiay / 60;
-    iGiay = TongGiay % 60;
+    tmp.iGiay = TongGiay % 60;
 
     return tmp;
 }
